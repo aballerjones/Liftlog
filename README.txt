@@ -1,7 +1,10 @@
-LIFTLOG V2 — INSTALL NOTES
+LiftLog 2.1 — iPhone PWA update
 
-This folder is a static Progressive Web App (PWA). To install it as a Home Screen app on iPhone, publish the contents of this folder to an HTTPS web host. The workout data itself is stored in localStorage on the iPhone/browser origin; the host serves the app files and does not receive workout records.
+Update your existing GitHub Pages repository (do not create a new repository or URL):
+1. Export a workout backup in LiftLog > History as a precaution.
+2. In your GitHub repository, replace index.html and sw.js in the repository root with the files in this package.
+3. Commit the changes. Keep the existing manifest and icon files.
+4. Open the existing GitHub Pages URL in Safari while online and refresh once. Close and reopen the Home Screen app.
+5. Go to Exercises > Add expanded exercise catalog. This merges the additional exercise list into the existing on-device library without deleting custom exercises, routines, schedule, or history.
 
-After deployment, open the HTTPS site in Safari on iPhone, tap Share (square with upward arrow), scroll and choose Add to Home Screen, edit the name to LiftLog if desired, then tap Add. Launch from the new Home Screen icon.
-
-Keep using the same deployed URL and same Safari profile to retain the same local workout data. Export JSON backups from the History tab. Clearing Safari website data or changing the app URL can make the old local data inaccessible.
+The ZIP includes all PWA files; you can also replace the entire root file set if preferred. Keep the same URL and do not clear Safari website data.

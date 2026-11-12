@@ -1,24 +1,21 @@
 {
   "name": "LiftLog \u2014 Personal Workout Tracker",
   "short_name": "LiftLog",
-  "start_url": "./index.html",
+  "start_url": "./",
   "scope": "./",
   "display": "standalone",
   "background_color": "#101216",
   "theme_color": "#101216",
-  "description": "Private, on-device workout logging, routines, scheduling and strength progress.",
   "icons": [
     {
       "src": "icon-192.png",
       "sizes": "192x192",
-      "type": "image/png",
-      "purpose": "any"
+      "type": "image/png"
     },
     {
       "src": "icon-512.png",
       "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "any"
+      "type": "image/png"
     }
   ]
 }
